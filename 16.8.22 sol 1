@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int  p,i,count=0;
+    for(i=0;i<4;i++)
+    {
+    scanf("%d",&p);
+    if(p>=10)
+    count++;
+}
+printf("%d",count);
+return 0;
+}
